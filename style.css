@@ -32,11 +32,17 @@ li a:hover {
 .center{
   text-align: center;
 }
-.img-center {
+.img_center{
   display: block;
-  margin-left: auto;
+  margin-left: 350px;
+  padding-top:150px;
+  padding-bottom: 0px;
   margin-right: auto;
-  width:100%;
+  width: 40%;
+}
+.search{
+  background: url(search.png) no-repeat scroll 7px 7px;
+  padding-left:30px;
 }
 .footer {
   position: fixed;
@@ -48,4 +54,7 @@ li a:hover {
   background-color: rgba(209, 209, 209, 0.575);
   color:rgba(48, 48, 48, 0.3);
   padding:10px;
+}
+.line{
+  border:rgb(61, 61, 61);
 }
